@@ -48,7 +48,7 @@ g.addEdge(2, 0)
 g.addEdge(2, 3)
 g.addEdge(3, 3)
 
-print("Following is Depth First Traversal (starting from vertex 0)")
+print("Following is Depth First Search Traversal (starting from vertex 0)")
 g.DFS(0)
 
 # This code is contributed by Neelam Yadav
