@@ -45,8 +45,8 @@ void testcase(){
 	cin>>n;
 	int a[n], b[n];
 	int mi = 1e9;
-	for(int i=0;i<n;i++){
-		cin>>a[i];
+	for(int i = 0; i < n; i++){
+		cin >> a[i];
 		b[i] = a[i];
 		mi = min(mi,a[i]);
 	}
@@ -56,8 +56,10 @@ void testcase(){
 		if(a[i]==b[i]) continue;
 		if(b[i]%mi != 0) f = false;
 	}
-	if(f) cout<<"YES"<<endl;
-	else cout<<"NO"<<endl;
+	if (f)
+		cout<<"YES"<<endl;
+	else 
+		cout<<"NO"<<endl;
 
 }
 							
