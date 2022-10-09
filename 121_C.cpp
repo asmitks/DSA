@@ -67,7 +67,7 @@ int main()
 	cin>>t;
 	while(t--) {
 		int n;
-		cin>>n;
+		cin >> n;
 		vi h(n),k(n);
 		REP(i,0,n-1)
 			cin>>k[i];
