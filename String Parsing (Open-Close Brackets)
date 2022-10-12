@@ -1,0 +1,37 @@
+def minCost(A, n):
+
+	if(n%2 != 0):	#odd length string
+		return -1
+
+	openCount = 0	#number of opening and closing brackets not equal
+	closeCount = 0
+	for i in A:
+		if(i == '('):
+			openCount = openCount + 1
+		else:
+			closeCount = closeCount + 1
+	if(openCount != closeCount):	
+		return -1
+
+	stack = []
+	ans = 0
+	for i in A:
+		#print(stack, ans)
+		#count = 0
+		if(len(stack) == 0):
+			stack.append(i)
+		else:
+			if(stack[0] == i):
+				stack.append(i)
+			else:
+				stack.pop()
+				if(i == "("):
+					ans = ans + 2
+
+	return(ans)
+
+n = int(input())
+A = input()
+print(minCost(A, n))
+
+
