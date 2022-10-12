@@ -1,0 +1,12 @@
+def baseString(stringA):
+	if(len(stringA)%2 != 0):
+		return stringA
+	return max(baseString(stringA[0:len(stringA)//2]) + baseString(stringA[len(stringA)//2:]), baseString(stringA[len(stringA)//2:]) + baseString(stringA[0:len(stringA)//2]))
+
+A = input()
+B = input()
+if(baseString(A) == baseString(B)):
+	print("YES")
+else:
+	print("NO")
+
