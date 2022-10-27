@@ -1,4 +1,4 @@
-## Implementation of the following datastructures and algorithms in python and c++:
+## Implementation of the following datastructures and algorithms in python, c++ and Java:
 
 * Segment Tree
 * Dijoin set union
