@@ -1,4 +1,4 @@
-## Implementation of the following datastructures and algorithms in python, c++ and Java:
+## Implementation of the following datastructures and algorithms in Python, C++, and Java:
 
 * Segment Tree
 * Dijoin set union
@@ -13,6 +13,12 @@
 * Queue
 * Heap/Priority queue
 * Dynamic Array
+* Breadth First Search
+* Depth First Search
+* Dijkstra
+* Belman Ford
+* Knapsack
+* Lowest common subsequence
 
 ## Solutions to the following codeforces contests are present:
 
